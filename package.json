@@ -2,7 +2,7 @@
   "name": "isemail",
   "description": "Validate an email address according to RFCs 5321, 5322, and others",
   "version": "3.0.0",
-  "repository": "git://github.com/hapijs/isemail",
+  "repository": "git://github.com/matth022/isemail",
   "main": "lib/index.js",
   "keywords": [
     "isemail",
@@ -18,7 +18,7 @@
     "node": ">=4.0.0"
   },
   "dependencies": {
-    "punycode": "2.x.x"
+    "punycode": "git+https://github.com/matth022/punycode.js.git"
   },
   "devDependencies": {
     "code": "3.x.x",
